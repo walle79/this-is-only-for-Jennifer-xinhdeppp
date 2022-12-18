@@ -118,7 +118,7 @@ $(document).ready(function () {
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
-                    url("img/giphy2.gif")
+                    url("img/D9E3A9C5-9295-4EA3-897C-01B49F060615.gif")
                     left top
                     no-repeat
                   `,
