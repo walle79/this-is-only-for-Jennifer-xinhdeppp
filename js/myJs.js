@@ -118,7 +118,7 @@ $(document).ready(function () {
       background: '#fff url("img/7720A0CE-FC26-49CB-9898-F983140C8918.jpeg")',
       backdrop: `
                     rgba(0,0,123,0.4)
-                    url("img/D9E3A9C5-9295-4EA3-897C-01B49F060615.gif")
+                    url("img/none.gif")
                     left top
                     no-repeat
                   `,
