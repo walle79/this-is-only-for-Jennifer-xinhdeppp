@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://cuongnobro.github.io/Baby/";
+            window.location = "https://walle79.github.io/heart-emotion/";
           },
         });
       }
