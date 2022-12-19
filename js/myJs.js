@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "Hello phơ!",
-  text2: "Anh Muốn Hỏi Phơ Một Câu Hỏi <3",
-  text3: "Phơ Có Thích Anh Không ._.",
-  text4: "Nếu phơ ko trả lời mà thoát ra tức là muốn làm ny a rùi đó nha :v",
+  text1: "Hello pé!",
+  text2: "Anh Muốn Hỏi Pé Một Câu Hỏi <3",
+  text3: "Pé Có Thích Anh Không ._.",
+  text4: "Nếu pé ko trả lời mà thoát ra tức là muốn làm ny a rùi đó nha :v",
   text5: "Mơ à ???",
   text6: "Tất Nhiên Là Có rùiii<3",
-  text7: "Lí do phơ thích a là gì zạ :vvvv",
+  text7: "Lí do pé thích a là gì zạ :vvvv",
   text8: "Gửi cho a <3",
-  text9: "Vì anh thích phơ mất rồi",
-  text10: "Anh biết mà ^^ Yêu phơ 300.000",
+  text9: "Vì anh thích pé mất rồi",
+  text10: "Anh biết mà ^^ Yêu pé 300.000",
   text11:
-    "Phơ đồng ý làm người iu a nhaaa :v Còn giờ thì phơ xem hết bí mật này nè!",
+    "Pé đồng ý làm người iu a nhaaa :v Còn giờ thì pé xem hết bí mật này nè!",
   text12: "Okii lunn <3",
 };
 
