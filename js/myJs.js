@@ -129,18 +129,18 @@ $(document).ready(function () {
     //   cancelButtonColor: "#f6cd61",
     //   confirmButtonText: textConfig.text6,
     // })
-      Swal.fire({
-          width: 900,
-          confirmButtonText: textConfig.text12,
-          background: '#fff url("img/7720A0CE-FC26-49CB-9898-F983140C8918.jpeg")',
-          title: textConfig.text10,
-          text: textConfig.text11,
-          confirmButtonColor: "#83d0c9",
-          onClose: () => {
-            window.location = "https://walle79.github.io/my-flower/";
-          },
-        }).then((result) => {
-      if (result.value) {
+      // Swal.fire({
+      //     width: 900,
+      //     confirmButtonText: textConfig.text12,
+      //     background: '#fff url("img/7720A0CE-FC26-49CB-9898-F983140C8918.jpeg")',
+      //     title: textConfig.text10,
+      //     text: textConfig.text11,
+      //     confirmButtonColor: "#83d0c9",
+      //     onClose: () => {
+      //       window.location = "https://walle79.github.io/my-flower/";
+      //     },
+      //   }).then((result) => {
+      // if (result.value) {
         Swal.fire({
           width: 900,
           confirmButtonText: textConfig.text12,
@@ -152,7 +152,7 @@ $(document).ready(function () {
             window.location = "https://walle79.github.io/my-flower/";
           },
         });
-      }
+      // }
     });
 
     $("#txtReason").focus(function () {
