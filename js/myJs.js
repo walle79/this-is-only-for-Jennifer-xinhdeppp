@@ -6,7 +6,7 @@ const textConfig = {
   text5: "Mơ à ???",
   text6: "Tất Nhiên Là Có rùiii<3",
   text7: "Lí do pé thích a là gì zạ :vvvv",
-  text8: "Gửi cho a <3",
+  text8: "Yah <3",
   text9: "Vì anh thích pé mất rồi",
   text10: "Anh biết mà, hihi ^^",
   text11:
@@ -127,7 +127,7 @@ $(document).ready(function () {
       cancelButtonColor: "#d33",
       confirmButtonColor: "#fe8a71",
       cancelButtonColor: "#f6cd61",
-      confirmButtonText: textConfig.text6,
+      confirmButtonText: textConfig.text8,
     }).then((result) => {
       if (result.value) {
         Swal.fire({
