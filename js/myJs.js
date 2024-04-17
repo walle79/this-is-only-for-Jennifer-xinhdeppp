@@ -109,27 +109,27 @@ $(document).ready(function () {
   $("#yes").click(function () {
     var audio = new Audio("sound/tick.mp3");
     audio.play();
-    Swal.fire({
-      title: textConfig.text7,
-      html: true,
-      width: 900,
-      padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
-      background: '#fff url("img/7720A0CE-FC26-49CB-9898-F983140C8918.jpeg")',
-      backdrop: `
-                    rgba(0,0,123,0.4)
-                    url("img/none.gif")
-                    left top
-                    no-repeat
-                  `,
-      showCancelButton: false,
-      confirmButtonColor: "#3085d6",
-      cancelButtonColor: "#d33",
-      confirmButtonColor: "#fe8a71",
-      cancelButtonColor: "#f6cd61",
-      confirmButtonText: textConfig.text6,
-    }).then((result) => {
-      if (result.value) {
+    // Swal.fire({
+    //   title: textConfig.text7,
+    //   html: true,
+    //   width: 900,
+    //   padding: "3em",
+    //   html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+    //   background: '#fff url("img/7720A0CE-FC26-49CB-9898-F983140C8918.jpeg")',
+    //   backdrop: `
+    //                 rgba(0,0,123,0.4)
+    //                 url("img/none.gif")
+    //                 left top
+    //                 no-repeat
+    //               `,
+    //   showCancelButton: false,
+    //   confirmButtonColor: "#3085d6",
+    //   cancelButtonColor: "#d33",
+    //   confirmButtonColor: "#fe8a71",
+    //   cancelButtonColor: "#f6cd61",
+    //   confirmButtonText: textConfig.text6,
+    // }).then((result) => {
+    //   if (result.value) {
         Swal.fire({
           width: 900,
           confirmButtonText: textConfig.text12,
@@ -141,7 +141,7 @@ $(document).ready(function () {
             window.location = "https://walle79.github.io/my-flower/";
           },
         });
-      }
+      // }
     });
 
     $("#txtReason").focus(function () {
