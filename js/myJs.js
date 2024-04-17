@@ -127,7 +127,7 @@ $(document).ready(function () {
       cancelButtonColor: "#d33",
       confirmButtonColor: "#fe8a71",
       cancelButtonColor: "#f6cd61",
-      confirmButtonText: textConfig.text8,
+      confirmButtonText: textConfig.text6,
     }).then((result) => {
       if (result.value) {
         Swal.fire({
